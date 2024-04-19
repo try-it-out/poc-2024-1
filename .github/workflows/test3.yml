@@ -1,0 +1,11 @@
+on:
+  issue_comment:
+
+name: test3-issue-comment
+
+jobs:
+  job3:
+    name: Job 3
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello world! from issue_comment"

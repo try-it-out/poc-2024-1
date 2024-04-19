@@ -1,0 +1,11 @@
+on:
+  pull_request_target:
+
+name: test1-pull-request-target
+
+jobs:
+  job1:
+    name: Job 1
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello world! from pull request target"
