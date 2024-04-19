@@ -1,7 +1,7 @@
 on:
   pull_request:
 
-name: test4-issue-comment
+name: test4-pull-request
 
 jobs:
   job4:
