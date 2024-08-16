@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/try-it-out/poc-2024-1/issues"
   },
-  "homepage": "https://github.com/try-it-out/poc-2024-1#readme",
-  "dependencies": {
-    "jsrsasign": "^8.0.7"
-  }
+  "homepage": "https://github.com/try-it-out/poc-2024-1#readme"
 }
