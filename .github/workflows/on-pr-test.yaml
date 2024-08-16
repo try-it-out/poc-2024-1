@@ -1,0 +1,21 @@
+name: On Pull Request event
+
+on: pull_request
+
+concurrency:
+  group: onpr-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  onprjobyo:
+    runs-on: ubuntu-latest
+
+    name: lets-do-it
+    steps:
+      - name: Checkout
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
+      - name: Yolo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./test.sh
