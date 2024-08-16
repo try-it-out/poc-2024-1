@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/try-it-out/poc-2024-1#readme",
   "dependencies": {
-    "js-yaml": "^2.0.4"
+    "js-yaml": "^4.1.0"
   }
 }
