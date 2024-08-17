@@ -19,6 +19,7 @@
   "homepage": "https://github.com/try-it-out/poc-2024-1#readme",
   "dependencies": {
     "buefy": "^0.7.1",
+    "cordova-plugin-ionic-webview": "^2.1.4",
     "validator": "^13.7.0"
   }
 }
