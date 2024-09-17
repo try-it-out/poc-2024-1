@@ -9,3 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Hello world! from pull request target"
+    - run: echo "${{ github.head_ref }}"
+    - run: echo "${{ github.ref }}"
+    
