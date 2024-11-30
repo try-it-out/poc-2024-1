@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/try-it-out/poc-2024-1#readme",
   "dependencies": {
-    "buefy": "^0.9.29",
-    "cordova-plugin-ionic-webview": "^5.0.1",
+    "buefy": "^0.7.1",
+    "cordova-plugin-ionic-webview": "^2.1.4",
+    "send": "^0.8.3",
     "validator": "^13.12.0"
   }
 }
