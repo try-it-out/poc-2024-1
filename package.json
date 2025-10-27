@@ -20,6 +20,6 @@
   "dependencies": {
     "buefy": "^0.9.29",
     "cordova-plugin-ionic-webview": "^5.0.1",
-    "validator": "^13.12.0"
+    "validator": "^13.15.20"
   }
 }
